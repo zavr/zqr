@@ -37,7 +37,7 @@ cleanria:
 	$(RM) $(RMFLAGS) $(BUILDPATH)/
 
 rename:
-	# $(OLDAPPNAME) "->" $(NEWAPPNAME)
+	# $(OLDAPPNAME) -> $(NEWAPPNAME)
 	mv $(CLASSPATH)/$(OLDAPPNAME) $(CLASSPATH)/$(NEWAPPNAME);
 	mv $(RESOURCEPATH)/$(OLDAPPNAME) $(RESOURCEPATH)/$(NEWAPPNAME);
 	cd $(SOURCEPATH)/ && find -type f -name \* -exec sed -i -r s/$(OLDAPPNAME)/$(NEWAPPNAME)/g {} \;
