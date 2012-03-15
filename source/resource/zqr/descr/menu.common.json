@@ -1,0 +1,97 @@
+[
+    /*
+        {
+            name : "Главная", // вся основная информация по видам рекламы
+            opened : true,
+            subitems: [
+                {
+                    name : "[-] Реклама на видео",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-tab.json"
+                },
+                {
+                    name : "[-] Реклама на сайте",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-vid-tab.json"
+                },
+                {
+                    name : "[-] Интерактивное видео",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-vid-tab.json"
+                }
+            ]
+        }//,
+    */
+    
+    {   name : "Рекламные кампании",
+        opened : true,
+        subitems: [
+            {
+                name : "[-] Банеры",
+                icon : "icon/16/apps/utilities-keyring.png",
+                model : "resource/zqr/descr/acv-banners-tab.json"
+            },
+            {
+                name : "Видео",
+                icon : "icon/16/apps/utilities-keyring.png",
+                model : "resource/zqr/descr/acv-videos-tab.json"
+            },
+            {
+                name : "Статистика",
+                icon : "icon/16/apps/utilities-keyring.png",
+                model : "resource/zqr/descr/acv-video-stats-tab.json"
+            }
+        ]
+    },
+    
+    /*
+        {
+            name : "Настройки",
+            opened : true,
+            subitems: [
+                {
+                    name : "[-] Состояние счета",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-tab.json"
+                },
+                {
+                    name : "[-] Пополнить счет",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-vid-tab.json"
+                }
+            ]
+        }//,
+    */
+    /*
+        {
+            name : "Справочная информация", 
+            opened : true,
+            subitems: [
+                {
+                    name : "[-] Требования к рекламным материалам",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-tab.json"
+                },
+    
+                {
+                    name : "[-] Условия размещения рекламы",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-tab.json"
+                },
+    
+                {
+                    name : "[-] Как создать рекламную компанию",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-tab.json"
+                },
+    
+                {
+                    name : "[-] Обозначения и сокращения",
+                    icon : "icon/16/apps/utilities-keyring.png",
+                    model : "resource/zqr/descr/adv-com-vid-tab.json"
+                }
+            ]
+        }
+    */
+]
+
