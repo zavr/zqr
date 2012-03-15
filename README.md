@@ -8,8 +8,8 @@
 
 # Requirements (Что нужно)
 
-* Python
-* Qooxdoo
+* Python 2.6+
+* Qooxdoo 1.6 (-> ../deps/qooxdoo/)
 * Web Server (опционально)
 
 # Credis (Кто это натворил)

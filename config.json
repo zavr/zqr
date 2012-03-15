@@ -1,5 +1,5 @@
 {
-  "name"    : "zqa",
+  "name"    : "zqr",
 
   "include" :
   [
@@ -30,9 +30,9 @@
 
   "let" :
   {
-    "APPLICATION"  : "zqa",
+    "APPLICATION"  : "zqr",
     "QOOXDOO_PATH" : "../deps/qooxdoo",
-    "QXTHEME"      : "zqa.theme.Theme",
+    "QXTHEME"      : "zqr.theme.Theme",
     "API_EXCLUDE"  : ["qx.test.*", "${APPLICATION}.theme.*"],
     "LOCALES"      : [ "ru" ],
     "CACHE"        : "cache",
