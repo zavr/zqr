@@ -5,7 +5,7 @@
     "summary" : "Zavr Qooxdoo Custom Ria",
     "description" : "This is a skeleton for a custom application with qooxdoo.",
     "homepage" : "https://github.com/zavr/zqr",
-    "license" : "SomeLicense",
+    "license" : "BSD2",
     "authors" : 
     [
       {
@@ -15,10 +15,10 @@
       {
         "name" : "Serge сff Kozhevnikov",
         "email" : ""
-      },
+      }
     ],
     "version" : "trunk",
-    "qooxdoo-versions": ["1.6"]
+    "qooxdoo-versions": ["1.0"]
   },
   
   "provides" : 
